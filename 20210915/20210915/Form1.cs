@@ -16,5 +16,16 @@ namespace _20210915
         {
             InitializeComponent();
         }
+
+        private void Btnosszeadas_Click(object sender, EventArgs e)
+        {
+            int adat1 = Convert.ToInt32(txbadat1.Text);
+            int adat2 = Convert.ToInt32(txbadat2.Text);
+            int eredmeny;
+
+            eredmeny = adat1 + adat2;
+
+            txberedmeny.Text= Convert.ToString(eredmeny);
+        }
     }
 }
