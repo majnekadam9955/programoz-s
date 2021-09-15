@@ -38,6 +38,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.exit = new System.Windows.Forms.Button();
+            this.lblmuvelet = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnosszeadas
@@ -128,11 +129,21 @@
             this.exit.UseVisualStyleBackColor = true;
             this.exit.Click += new System.EventHandler(this.Exit_Click);
             // 
+            // lblmuvelet
+            // 
+            this.lblmuvelet.AutoSize = true;
+            this.lblmuvelet.Location = new System.Drawing.Point(152, 93);
+            this.lblmuvelet.Name = "lblmuvelet";
+            this.lblmuvelet.Size = new System.Drawing.Size(119, 13);
+            this.lblmuvelet.TabIndex = 10;
+            this.lblmuvelet.Text = "Használj egy műveletet!";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(330, 198);
+            this.Controls.Add(this.lblmuvelet);
             this.Controls.Add(this.exit);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -162,6 +173,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button exit;
+        private System.Windows.Forms.Label lblmuvelet;
     }
 }
 
