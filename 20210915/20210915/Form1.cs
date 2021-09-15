@@ -27,5 +27,10 @@ namespace _20210915
 
             txberedmeny.Text= Convert.ToString(eredmeny);
         }
+
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            this.Close;
+        }
     }
 }
