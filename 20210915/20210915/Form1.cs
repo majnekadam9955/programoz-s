@@ -33,7 +33,7 @@ namespace _20210915
             catch (Exception)
             {
                 MessageBox.Show("nem jó számot adtál meg");
-                throw;
+               
             }
             
 
@@ -63,7 +63,7 @@ namespace _20210915
             catch (Exception)
             {
                 MessageBox.Show("nem jó számot adtál meg");
-                throw;
+                
             }
             
         }
@@ -85,7 +85,7 @@ namespace _20210915
             catch (Exception)
             {
                 MessageBox.Show("nem jó számot adtál meg");
-                throw;
+            
             }
             
 
