@@ -30,7 +30,7 @@ namespace _20210915
 
         private void Exit_Click(object sender, EventArgs e)
         {
-            this.Close;
+            this.Close();
         }
 
         private void Btnkivonas_Click(object sender, EventArgs e)
