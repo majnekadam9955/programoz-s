@@ -58,6 +58,7 @@
             this.btnkivonas.TabIndex = 1;
             this.btnkivonas.Text = "Kivonás";
             this.btnkivonas.UseVisualStyleBackColor = true;
+            this.btnkivonas.Click += new System.EventHandler(this.Btnkivonas_Click);
             // 
             // btnszorzas
             // 
@@ -67,6 +68,7 @@
             this.btnszorzas.TabIndex = 2;
             this.btnszorzas.Text = "Szorzás";
             this.btnszorzas.UseVisualStyleBackColor = true;
+            this.btnszorzas.Click += new System.EventHandler(this.Btnszorzas_Click);
             // 
             // txbadat1
             // 
