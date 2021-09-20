@@ -237,7 +237,7 @@ namespace _20210920
 
             Console.WriteLine("9. feladat");
             Console.WriteLine();
-            Console.WriteLine("kérem a víz hőmérsékletét");
+            Console.WriteLine("kérem a számot!");
             int a = Convert.ToInt32(Console.ReadLine());
             if (a % 3 == 0)
             {
@@ -344,27 +344,27 @@ namespace _20210920
         static void Main(string[] args)
         {
 
-            feladat1();
+            //feladat1();
 
-            feladat2();
+            //feladat2();
 
-            feladat3();
+            //feladat3();
 
-            feladat4();
+            //feladat4();
 
-            feladat5();
+            //feladat5();
 
-            feladat6();
+            //feladat6();
 
-            feladat7();
+            //feladat7();
 
-            feladat8();
+            //feladat8();
 
             feladat9();
 
-            feladat10();
+            //feladat10();
 
-            feladat11();
+            //feladat11();
 
             Console.WriteLine();
             Console.WriteLine();
