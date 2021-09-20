@@ -11,7 +11,8 @@ namespace _20210920
 
         static void feladat1()
         {
-
+            Console.WriteLine("1. feladat");
+            Console.WriteLine();
             Console.WriteLine("kérek egy számot!");
             int a = Convert.ToInt32(Console.ReadLine());
             if (a % 2 == 0)
@@ -26,11 +27,14 @@ namespace _20210920
                 Console.WriteLine("A szám páratlam!");
 
             }
-
+            Console.WriteLine();
+            Console.WriteLine();
         }
 
         static void feladat2()
         {
+            Console.WriteLine("2. feladat");
+            Console.WriteLine();
 
             Console.WriteLine("kérek egy számot!");
             int a = Convert.ToInt32(Console.ReadLine());
@@ -52,12 +56,14 @@ namespace _20210920
                 Console.WriteLine("a szám pozitív!");
 
             }
-
+            Console.WriteLine();
+            Console.WriteLine();
         }
 
         static void feladat3()
         {
-
+            Console.WriteLine("3. feladat");
+            Console.WriteLine();
             Console.WriteLine("kérek egy számot!");
             int a = Convert.ToInt32(Console.ReadLine());
             if (a < 0)
@@ -78,12 +84,14 @@ namespace _20210920
                 Console.WriteLine("Nincs fagy odakint");
 
             }
-
+            Console.WriteLine();
+            Console.WriteLine();
         }
 
         static void feladat4()
         {
-
+            Console.WriteLine("4. feladat");
+            Console.WriteLine();
             Console.WriteLine("kérek egy számot!");
             int a = Convert.ToInt32(Console.ReadLine());
             if (a < 40 && a > -30)
@@ -98,12 +106,14 @@ namespace _20210920
                 Console.WriteLine("A szám kívül esik a -30 és 40-es inter vallumon!");
 
             }
-
+            Console.WriteLine();
+            Console.WriteLine();
         }
 
         static void feladat5()
         {
-
+            Console.WriteLine("5. feladat");
+            Console.WriteLine();
             Console.WriteLine("kérek egy számot!");
             int a = Convert.ToInt32(Console.ReadLine());
             if (a < 16)
@@ -120,13 +130,15 @@ namespace _20210920
                 Console.WriteLine(a);
 
             }
-            
 
+            Console.WriteLine();
+            Console.WriteLine();
         }
 
         static void feladat6()
         {
-
+            Console.WriteLine("6. feladat");
+            Console.WriteLine();
             Console.WriteLine("kérek egy számot!");
             int a = Convert.ToInt32(Console.ReadLine());
             if (a > 10 && a < 20)
@@ -153,19 +165,26 @@ namespace _20210920
                 Console.WriteLine("negyvenesek");
 
             }
-            else if (a < 10 && a > 50)
+            else if (a < 10 )
             {
 
                 Console.WriteLine("a szám nem tartozik bele a 10-50-es intervallumba");
 
             }
-           
+            else if (a > 50)
+            {
 
+                Console.WriteLine("a szám nem tartozik bele a 10-50-es intervallumba");
+
+            }
+            Console.WriteLine();
+            Console.WriteLine();
         }
 
         static void feladat7()
         {
-
+            Console.WriteLine("7. feladat");
+            Console.WriteLine();
             Console.WriteLine("kérek egy számot!");
             int a = Convert.ToInt32(Console.ReadLine());
             if (a > 12 && a < 25 && a % 2 == 0)
@@ -177,15 +196,95 @@ namespace _20210920
             else
             {
 
-                Console.WriteLine("A szám nem osztható 2-vel vagy nincs benne a 12-25-ös intervallumban");
+                Console.WriteLine("A szám nem osztható 2-vel vagy nincs benne a 12-25-ös intervallumban!");
 
             }
-
+            Console.WriteLine();
+            Console.WriteLine();
         }
 
+        static void feladat8()
+        {
+            Console.WriteLine("8. feladat");
+            Console.WriteLine();
+            Console.WriteLine("kérem a víz hőmérsékletét");
+            int a = Convert.ToInt32(Console.ReadLine());
+            if (a < 0)
+            {
 
+                Console.WriteLine("a víz szilárd halmazállapotú");
 
+            }
+            else if (a >= 0)
+            {
 
+                a = a / 3;
+                Console.WriteLine("a víz folyékony halmazállapotú!");
+
+            }
+            else if (a > 100)
+            {
+
+                Console.WriteLine("a víz légnemü halmazállapotú!");
+
+            }
+            Console.WriteLine();
+            Console.WriteLine();
+        }
+
+        static void feladat9()
+        {
+
+            Console.WriteLine("9. feladat");
+            Console.WriteLine();
+            Console.WriteLine("kérem a víz hőmérsékletét");
+            int a = Convert.ToInt32(Console.ReadLine());
+            if (a % 3 == 0)
+            {
+
+                Console.WriteLine("a szám 3-mal osztható");
+
+            }
+            else if (a % 4 == 0)
+            {
+
+                Console.WriteLine("a szám 4-el osztható");
+
+            }
+            else if (a % 9 == 0)
+            {
+
+                Console.WriteLine("a szám 9-el osztható");
+
+            }
+            else if (a % 3 == 0 && a % 4 == 0)
+            {
+
+                Console.WriteLine("a szám 3-mal és 4-el osztható");
+
+            }
+            else if (a % 4 == 0 && a % 9 == 0)
+            {
+
+                Console.WriteLine("a szám 4-el és 9-el osztható");
+
+            }
+            else if (a % 3 == 0 && a % 9 == 0)
+            {
+
+                Console.WriteLine("a szám 3-mal és 9-el osztható");
+
+            }
+            else if (a % 3 == 0 && a % 4 == 0 && a % 9 == 0)
+            {
+
+                Console.WriteLine("a szám 3-mal, 4-el és 9-el osztható");
+
+            }
+            Console.WriteLine();
+            Console.WriteLine();
+
+        }
 
         static void Main(string[] args)
         {
@@ -201,6 +300,14 @@ namespace _20210920
             feladat5();
 
             feladat6();
+
+            feladat7();
+
+            feladat8();
+
+            feladat9();
+
+
 
             Console.WriteLine();
             Console.WriteLine();
