@@ -286,6 +286,61 @@ namespace _20210920
 
         }
 
+        static void feladat10()
+        {
+
+            Console.WriteLine("10. feladat");
+            Console.WriteLine();
+            Console.WriteLine("kérek egy számot!");
+            int a = Convert.ToInt32(Console.ReadLine());
+            if (a % 4 == 0)
+            {
+
+                Console.WriteLine("A {0} év szökőév", a);
+
+            }
+            else
+            {
+
+                Console.WriteLine("A {0} nem szökőév", a);
+
+            }
+            Console.WriteLine();
+            Console.WriteLine();
+
+        }
+
+        static void feladat11()
+        {
+
+            Console.WriteLine("11. feladat");
+            Console.WriteLine();
+            Console.WriteLine("kérem az 1. szakasz hosszát!");
+            int aszakasz = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("kérem a 2. szakasz hosszát!");
+            int bszakasz = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("kérem a 3. szakasz hosszát!");
+            int cszakasz = Convert.ToInt32(Console.ReadLine());
+
+            if (aszakasz + bszakasz > cszakasz && bszakasz + cszakasz > aszakasz && cszakasz + aszakasz > bszakasz)
+            {
+
+                Console.WriteLine("a szakaszokból lehet egy háromszöget csinálni");
+
+            }
+            else
+            {
+
+                Console.WriteLine("nem lehet ebből a háromszöget csinálni");
+
+            }
+
+
+
+            Console.WriteLine();
+            Console.WriteLine();
+
+        }
         static void Main(string[] args)
         {
 
@@ -307,7 +362,9 @@ namespace _20210920
 
             feladat9();
 
+            feladat10();
 
+            feladat11();
 
             Console.WriteLine();
             Console.WriteLine();
