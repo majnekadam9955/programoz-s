@@ -143,6 +143,7 @@ namespace _20210920
 
             feladat4();
 
+            feladat5();
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
