@@ -124,9 +124,51 @@ namespace _20210920
 
         }
 
+        static void feladat6()
+        {
+
+            Console.WriteLine("kérek egy számot!");
+            int a = Convert.ToInt32(Console.ReadLine());
+            if (a > 10 && a < 20)
+            {
+
+                Console.WriteLine("tizesek");
+
+            }
+            else if (a > 20 && a <30)
+            {
+
+                Console.WriteLine("huszasok");
+
+            }
+            else if (a > 30 && a < 40)
+            {
+
+                Console.WriteLine("harmincasok");
+
+            }
+            else if (a > 40 && a < 50)
+            {
+
+                Console.WriteLine("negyvenesek");
+
+            }
+            else if (a < 10 && a > 50)
+            {
+
+                Console.WriteLine("a szám nem tartozik bele a 10-50-es intervallumba");
+
+            }
+           
+
+        }
+
+        static void feladat7()
+        {
 
 
 
+        }
 
 
 
@@ -144,6 +186,9 @@ namespace _20210920
             feladat4();
 
             feladat5();
+
+            feladat6();
+
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
