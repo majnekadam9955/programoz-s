@@ -166,7 +166,20 @@ namespace _20210920
         static void feladat7()
         {
 
+            Console.WriteLine("kérek egy számot!");
+            int a = Convert.ToInt32(Console.ReadLine());
+            if (a > 12 && a < 25 && a % 2 == 0)
+            {
 
+                Console.WriteLine(a);
+
+            }
+            else
+            {
+
+                Console.WriteLine("A szám nem osztható 2-vel vagy nincs benne a 12-25-ös intervallumban");
+
+            }
 
         }
 
