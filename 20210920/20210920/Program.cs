@@ -239,10 +239,28 @@ namespace _20210920
             Console.WriteLine();
             Console.WriteLine("kérem a számot!");
             int a = Convert.ToInt32(Console.ReadLine());
-            if (a % 3 == 0)
+            if (a % 3 == 0 && a % 4 == 0 && a % 9 == 0)
             {
 
-                Console.WriteLine("a szám 3-mal osztható");
+                Console.WriteLine("a szám 3-mal, 9-el és 4-el osztható");
+
+            }
+            else if ( a % 9 == 0 && a % 4 == 0)
+            {
+
+                Console.WriteLine("a szám 4-el, és 9-el osztható");
+
+            }
+            else if (a % 3 == 0 && a % 9 == 0)
+            {
+
+                Console.WriteLine("a szám 3-mal és 9-el osztható");
+
+            }
+            else if (a % 3 == 0 && a % 4 == 0)
+            {
+
+                Console.WriteLine("a szám 3-mal és 4-el osztható");
 
             }
             else if (a % 4 == 0)
@@ -257,28 +275,16 @@ namespace _20210920
                 Console.WriteLine("a szám 9-el osztható");
 
             }
-            else if (a % 3 == 0 && a % 4 == 0)
+            else if (a % 3 == 0)
             {
 
-                Console.WriteLine("a szám 3-mal és 4-el osztható");
+                Console.WriteLine("a szám 3-mal osztható");
 
             }
-            else if (a % 4 == 0 && a % 9 == 0)
+            else
             {
 
-                Console.WriteLine("a szám 4-el és 9-el osztható");
-
-            }
-            else if (a % 3 == 0 && a % 9 == 0)
-            {
-
-                Console.WriteLine("a szám 3-mal és 9-el osztható");
-
-            }
-            else if (a % 3 == 0 && a % 4 == 0 && a % 9 == 0)
-            {
-
-                Console.WriteLine("a szám 3-mal, 4-el és 9-el osztható");
+                Console.WriteLine("ez a szám sem 3-mal sem 4-el, sem pedig 9-el nem osztható!");
 
             }
             Console.WriteLine();
@@ -344,27 +350,27 @@ namespace _20210920
         static void Main(string[] args)
         {
 
-            //feladat1();
+            feladat1();
 
-            //feladat2();
+            feladat2();
 
-            //feladat3();
+            feladat3();
 
-            //feladat4();
+            feladat4();
 
-            //feladat5();
+            feladat5();
 
-            //feladat6();
+            feladat6();
 
-            //feladat7();
+            feladat7();
 
-            //feladat8();
+            feladat8();
 
             feladat9();
 
-            //feladat10();
+            feladat10();
 
-            //feladat11();
+            feladat11();
 
             Console.WriteLine();
             Console.WriteLine();
