@@ -81,8 +81,48 @@ namespace _20210920
 
         }
 
+        static void feladat4()
+        {
 
+            Console.WriteLine("kérek egy számot!");
+            int a = Convert.ToInt32(Console.ReadLine());
+            if (a < 40 && a > -30)
+            {
 
+                Console.WriteLine("a szám -30 és 40 között van!");
+
+            }
+            else
+            {
+
+                Console.WriteLine("A szám kívül esik a -30 és 40-es inter vallumon!");
+
+            }
+
+        }
+
+        static void feladat5()
+        {
+
+            Console.WriteLine("kérek egy számot!");
+            int a = Convert.ToInt32(Console.ReadLine());
+            if (a < 16)
+            {
+
+                a = a * 10;
+                Console.WriteLine(a);
+
+            }
+            else if (a >= 16)
+            {
+
+                a = a / 3;
+                Console.WriteLine(a);
+
+            }
+            
+
+        }
 
 
 
@@ -100,6 +140,8 @@ namespace _20210920
             feladat2();
 
             feladat3();
+
+            feladat4();
 
             Console.WriteLine();
             Console.WriteLine();
