@@ -46,8 +46,20 @@ namespace _20210922_3feladat
             try
             {
 
+                int r = Convert.ToInt32(txbsugar.Text);
+                int r2 = r * r;
+                int r3 = r * r * r;
+                double K = 4 * r2 * Math.PI;
+                double osztas1 = 4 * r3 * Math.PI;
+                double T = osztas1 % 3;
 
 
+                lblkerulet.Text = "A gömb felülete";
+                lblterulet.Text = "A gömb térfogata";
+                lblkerulet.Visible = true;
+                lblterulet.Visible = true;
+                txbkerulet.Text = Convert.ToString(K);
+                txbterulet.Text = Convert.ToString(T);
 
             }
             catch (Exception)
@@ -64,3 +76,8 @@ namespace _20210922_3feladat
         }
     }
 }
+
+
+
+
+//𝑉 = 4⋅𝑟3𝜋 / 3.
