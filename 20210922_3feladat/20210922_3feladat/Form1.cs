@@ -47,11 +47,12 @@ namespace _20210922_3feladat
             {
 
                 int r = Convert.ToInt32(txbsugar.Text);
-                int r2 = r * r;
-                int r3 = r * r * r;
+                double r2 = Math.Pow(r, 2);
+                double r3 = Math.Pow(r, 3);
                 double K = 4 * r2 * Math.PI;
-                double osztas1 = 4 * r3 * Math.PI;
-                double T = osztas1 % 3;
+                
+                double T = 4 * Math.PI /3 * r3;
+                
 
 
                 lblkerulet.Text = "A gömb felülete";
