@@ -12,6 +12,13 @@ namespace _20210927
         static void feladat1()
         {
 
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("feladat1");
+            Console.WriteLine();
+            Console.WriteLine("Kérek egy számot!");
+
+
             int szam = Convert.ToInt32(Console.ReadLine());
 
             switch (szam)
@@ -67,13 +74,84 @@ namespace _20210927
 
 
                 default:
-                    Console.WriteLine("nem megfelelő számot adtál meg");
+                    Console.WriteLine("túl nagy számot adtál meg");
                     break;
             }
 
         }
 
+        static void feladat2()
+        {
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("feladat2");
+            Console.WriteLine();
+            Console.WriteLine("Kérek egy számot!");
 
+
+            int honap = Convert.ToInt32(Console.ReadLine());
+
+            switch (honap)
+            {
+
+                case 1:
+                    Console.WriteLine("Tél");
+                    break;
+                case 2:
+                    Console.WriteLine("Tél");
+                    break;
+                case 3:
+                    Console.WriteLine("tavasz");
+                    break;
+                case 4:
+                    Console.WriteLine("tavasz");
+                    break;
+                case 5:
+                    Console.WriteLine("tavasz");
+                    break;
+                case 6:
+                    Console.WriteLine("nyár");
+                    break;
+                case 7:
+                    Console.WriteLine("nyár");
+                    break;
+                case 8:
+                    Console.WriteLine("nyár");
+                    break;
+                case 9:
+                    Console.WriteLine("Ősz");
+                    break;
+                case 10:
+                    Console.WriteLine("Ősz");
+                    break;
+                case 11:
+                    Console.WriteLine("Ősz");
+                    break;
+                case 12:
+                    Console.WriteLine("Tél");
+                    break;
+
+
+
+
+
+                default:
+                    Console.WriteLine("nincs ilyen szám!");
+                    break;
+            }
+
+        }
+
+        static void feladat3()
+        {
+
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("feladat3");
+            Console.WriteLine();
+            Console.WriteLine("Kérek egy számot!");
+
+        }
 
 
         static void Main(string[] args)
@@ -81,7 +159,9 @@ namespace _20210927
 
             feladat1();
 
+            feladat2();
 
+            feladat3();
 
 
 
