@@ -155,7 +155,9 @@ namespace _20210927
 
             //2 000 000 000
             int szam = Convert.ToInt32(Console.ReadLine());
-            while (szam < 2000000000)
+            while (szam >
+                
+                2000000000)
             {
 
                 Console.WriteLine("nem jó számot adtál meg");
@@ -298,26 +300,218 @@ namespace _20210927
                     break;
             }
 
+        }
 
 
+        static void feladat6()
+        {
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("feladat6 a");
+            Console.WriteLine();
+            
 
+
+            int szamlalo = 1;
+
+            for (int i = 0; i < 20; i++)
+            {
+
+                Console.Write("{0}, ", szamlalo);
+                szamlalo++;
+
+
+            }
+
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("feladat6 b");
+            
+            Console.WriteLine();
+
+            int szamlalo2 = 1;
+
+                for (int i = 0; i < 20; i++)
+                {
+
+                    Console.WriteLine("{0}, ", szamlalo2);
+                    szamlalo2++;
+
+
+                }
+        }
+
+        static void feladat7()
+        {
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("feladat7");
+            Console.WriteLine();
+            Console.WriteLine("kérek entert");
+            Console.ReadLine();
+            int szamlalo2 = 15;
+
+            for (int i = 0; i < 78; i++)
+            {
+
+                Console.Write("{0}, ", szamlalo2);
+                szamlalo2++;
+
+
+            }
 
         }
+
+        static void feladat8()
+        {
+
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("feladat8 a");
+            Console.WriteLine();
+            Console.WriteLine("kérek entert");
+            Console.ReadLine();
+            int szamlalo2 = 1;
+
+            for (int i = 0; i < 31; i++)
+            {
+                if (szamlalo2 % 2 == 0)
+                {
+
+                    Console.Write("{0}, ", szamlalo2);
+
+                }
+                
+                szamlalo2++;
+
+
+            }
+
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("feladat8 b");
+            Console.WriteLine();
+
+            int szamlalo = 1;
+
+            for (int i = 0; i < 31; i++)
+            {
+                if (szamlalo % 2 == 0)
+                {
+
+                    Console.WriteLine("{0}, ", szamlalo);
+
+                }
+
+                szamlalo++;
+
+
+            }
+
+        }
+
+        static void feladat9()
+        {
+            Console.WriteLine("kérek egy számot");
+            int szam = Convert.ToInt32(Console.ReadLine());
+            int szamlalo = 1;
+
+            while (szam < 0)
+            {
+
+                Console.WriteLine("nem pozitív számot adtál meg! kérek egy új számot.");
+                szam = Convert.ToInt32(Console.ReadLine());
+
+            }
+
+                for (int i = 0; i < szam; i++)
+                {
+                    
+
+                        Console.Write("{0}, ", szamlalo);
+
+                    
+
+                    szamlalo++;
+
+
+                }
+
+            
+            
+
+        }
+
+        static void feladat10()
+        {
+
+            Console.WriteLine("kérek egy számot");
+            int szam = Convert.ToInt32(Console.ReadLine());
+            int szamlalo = 1;
+
+            while (szam < 0)
+            {
+
+                Console.WriteLine("nem pozitív számot adtál meg! kérek egy új számot.");
+                szam = Convert.ToInt32(Console.ReadLine());
+
+            }
+
+            for (int i = 0; i < szam; i++)
+            {
+
+
+                Console.WriteLine("{0}, ", szamlalo);
+
+
+
+                szamlalo++;
+
+
+            }
+
+        }
+
+        static void feladat11()
+        {
+
+            int szam = 1;
+            for (int i = 0; i < 15; i++)
+            {
+                Console.WriteLine("");
+                szam = Math.Pow(szam, 2);
+
+            }
+
+        }
+
+
+
 
         static void Main(string[] args)
         {
 
-            feladat1();
+           // feladat1();
 
-            feladat2();
+           // feladat2();
 
-            feladat3();
+           // feladat3();
 
-            feladat4();
+           // feladat4();
 
-            feladat5();
+          //  feladat5();
 
-            
+            Console.WriteLine("Ciklusos feladatok");
+            Console.WriteLine("kérek entert");
+            Console.ReadLine();
+
+           // feladat6();
+
+           // feladat7();
+
+          //  feladat8();
+
+            feladat9();
 
             Console.WriteLine();
             Console.WriteLine();
