@@ -475,10 +475,10 @@ namespace _20210927
         static void feladat11()
         {
 
-            int szam = 1;
+            int szam = 2;
             for (int i = 0; i < 15; i++)
             {
-                Console.WriteLine("");
+                Console.WriteLine(szam);
                 szam = Math.Pow(szam, 2);
 
             }
@@ -512,6 +512,19 @@ namespace _20210927
           //  feladat8();
 
             feladat9();
+
+            felada10();
+
+            feladat11();
+
+            feladat12();
+
+            feladat13();
+
+            feladat14();
+
+            feladat15();
+
 
             Console.WriteLine();
             Console.WriteLine();
