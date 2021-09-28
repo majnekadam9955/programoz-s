@@ -587,7 +587,7 @@ namespace _20210927
 
             feladat9();
 
-            felada10();
+            feladat10();
 
             feladat11();
 
