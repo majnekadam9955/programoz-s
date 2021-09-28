@@ -485,6 +485,80 @@ namespace _20210927
 
         }
 
+        static void feladat12() 
+        {
+            
+            int szamlalo = 100;
+
+            for (int i = 0; szamlalo < 401; i++)
+			{
+
+                if (szamlalo % 4 == 0)
+	            {
+                    
+                    Console.Write("{0}, ", szamlalo);
+
+	            }
+
+			}
+            
+        }
+
+        static void feladat13() 
+        {
+            
+            int szamlalo = 30;
+
+            for (int i = 0; szamlalo < 101; i++)
+			{
+
+                Console.Write("{0}, ", szamlalo);
+
+                szamlalo = szamlalo + 9;
+
+			}
+            
+        }
+
+        static void feladat14() 
+        {
+            
+            int szamlalo = 150;
+
+            for (int i = 0; szamlalo > 40; i++)
+			{
+
+                Console.Write("{0}, ", szamlalo);
+
+                szamlalo=szamlalo - 12;
+
+			}
+            
+        }
+
+        static void feladat15()
+        {
+            
+            int szamlalo = 100; 
+
+            for (int i = 0; szamlalo  > -100; i++)
+			{
+
+                if (szamlalo % 9 == 0)
+	            {
+
+                    Console.Write("{0}, ", szamlalo);
+                    szamlalo--;
+	            }
+
+			}
+            
+        }
+
+
+
+
+
 
 
 
