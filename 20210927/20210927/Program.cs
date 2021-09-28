@@ -391,10 +391,12 @@ namespace _20210927
             Console.WriteLine();
             Console.WriteLine("feladat8 b");
             Console.WriteLine();
+            Console.WriteLine("kérek entert");
+            Console.ReadLine();
 
             int szamlalo = 1;
 
-            for (int i = 0; i < 31; i++)
+            for (int i = 0; szamlalo < 31; i++)
             {
                 if (szamlalo % 2 == 0)
                 {
@@ -412,8 +414,8 @@ namespace _20210927
 
         static void feladat9()
         {
-            Console.WriteLine("kérek egy számot");
-            int szam = Convert.ToInt32(Console.ReadLine());
+           // Console.WriteLine("kérek egy számot");
+         /*   int szam = Convert.ToInt32(Console.ReadLine());
             int szamlalo = 1;
 
             while (szam < 0)
@@ -437,14 +439,14 @@ namespace _20210927
 
                 }
 
-            
+            */
             
 
         }
 
         static void feladat10()
         {
-
+            /*
             Console.WriteLine("kérek egy számot");
             int szam = Convert.ToInt32(Console.ReadLine());
             int szamlalo = 1;
@@ -469,14 +471,14 @@ namespace _20210927
 
 
             }
-
+            */
         }
 
         static void feladat11()
         {
 
-            int szam = 2;
-            for (int i = 0; i < 15; i++)
+            double szam = 2;
+            for (int i = 0; szam < 15; i++)
             {
                 Console.WriteLine(szam);
                 szam = Math.Pow(szam, 2);
@@ -567,23 +569,23 @@ namespace _20210927
 
            // feladat1();
 
-           // feladat2();
+            //feladat2();
 
-           // feladat3();
+            //feladat3();
 
-           // feladat4();
+            //feladat4();
 
-          //  feladat5();
+            //feladat5();
 
             Console.WriteLine("Ciklusos feladatok");
             Console.WriteLine("kérek entert");
             Console.ReadLine();
 
-           // feladat6();
+            //feladat6();
 
-           // feladat7();
+            //feladat7();
 
-          //  feladat8();
+            feladat8();
 
             feladat9();
 
