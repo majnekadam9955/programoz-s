@@ -17,52 +17,67 @@ namespace _20210929
             InitializeComponent();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void Szamol_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
-            int honap = Convert.ToInt32(txbhonapszama.Text);
+            int szam1 = Convert.ToInt32(txbelsoszam.Text);
+            int szam2 = Convert.ToInt32(txbmasodikszam.Text);
+            int nagyobb;
+            int kissebb;
+            int oszto = 1;
 
-            if (honap > 12 || honap < 0)
-            {
-                MessageBox.Show("nincs ilyen hónap!");
-            }
-            else if (honap == 1 || honap == 2 || honap == 12)
-            {
-
-                lblevszak.Text = "Tél";
-                lblevszak.Visible = true;
+            kissebb = szam2;
+            nagyobb = szam1;
 
 
-            }
-            else if (honap == 3 || honap == 4 || honap == 5)
-            {
-
-                lblevszak.Text = "Tavasz";
-                lblevszak.Visible = true;
 
 
-            }
-            else if (honap == 6 || honap == 7 || honap == 8)
+
+
+            if (szam1 > szam2)
             {
 
-                lblevszak.Text = "Nyár";
-                lblevszak.Visible = true;
-
+                nagyobb = szam1;
+                kissebb = szam2;
 
             }
-            else if (honap == 9 || honap == 10 || honap == 11)
+            else if (szam1 == szam2)
             {
 
-                lblevszak.Text = "Ősz";
-                lblevszak.Visible = true;
-
+                txboszto.Text = Convert.ToString(szam1);
 
             }
+            else if (szam1 < szam2)
+            {
+
+                nagyobb = szam2;
+                kissebb = szam1;
+
+            }
+
+            for (int i = 1; i < kissebb+1; i++)
+            {
+
+                if (kissebb % i == 0 && nagyobb % i == 0)
+                {
+
+                    oszto = i;
+
+                }
+
+            }
+
+
+            txboszto.Text = Convert.ToString(oszto);
+
+
+
+
 
 
 
