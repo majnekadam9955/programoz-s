@@ -1,0 +1,14 @@
+Budapest-MAFC; Budapest; Gabányi László Sportcsarnok;900
+Vasas Budapest; Budapest; Sport11 Csarnok;1000
+JP Cop-Jászberényi KSE; Jászberény; Bercsényi úti Sportcsarnok;1000
+Kaposvári KK; Kaposvár; Kaposvári Városi Sportcsarnok;1200
+KTE-Duna Aszfalt; Kecskemét; Messzi István Sportcsarnok;1600
+Atomerőmű SE; Paks; ASE Sportcsarnok;720
+Soproni KC; Sopron; Novomatic Aréna;1316
+Budapest-MAFC; Budapest; Gabányi László Sportcsarnok;900
+Vasas Budapest; Budapest; Sport11 Csarnok;1000
+JP Cop-Jászberényi KSE; Jászberény; Bercsényi úti Sportcsarnok;1000
+Kaposvári KK; Kaposvár; Kaposvári Városi Sportcsarnok;1200
+KTE-Duna Aszfalt; Kecskemét; Messzi István Sportcsarnok;1600
+Atomerőmű SE; Paks; ASE Sportcsarnok;720
+Soproni KC; Sopron; Novomatic Aréna;1316
