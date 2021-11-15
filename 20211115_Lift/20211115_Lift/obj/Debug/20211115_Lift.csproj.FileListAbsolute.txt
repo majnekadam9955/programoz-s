@@ -1,0 +1,7 @@
+Z:\12c\programozás\20211115_Lift\20211115_Lift\bin\Debug\20211115_Lift.exe.config
+Z:\12c\programozás\20211115_Lift\20211115_Lift\bin\Debug\20211115_Lift.exe
+Z:\12c\programozás\20211115_Lift\20211115_Lift\bin\Debug\20211115_Lift.pdb
+Z:\12c\programozás\20211115_Lift\20211115_Lift\obj\Debug\20211115_Lift.csprojAssemblyReference.cache
+Z:\12c\programozás\20211115_Lift\20211115_Lift\obj\Debug\20211115_Lift.csproj.CoreCompileInputs.cache
+Z:\12c\programozás\20211115_Lift\20211115_Lift\obj\Debug\20211115_Lift.exe
+Z:\12c\programozás\20211115_Lift\20211115_Lift\obj\Debug\20211115_Lift.pdb
